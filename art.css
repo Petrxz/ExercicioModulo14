@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* atalho de cores */
+:root {
+    --green: #00e77f;
+    --white: #fff;
+    --light-white: #aaa;
+    --black: #3d3d3d;
+    --second-black: #2F2F2F;
+    --light-bg: #4b4b4b;
+}
+
+
+.navbar {
+    background-color: #2F2F2F;
+}
+
+.dark-nav h3 {
+    color: var(--light-white);
+}
+
+.dark-nav p {
+    color: var(--light-white);
+}
+
+.dark-nav ul {
+    color: var(--white);
+}
+
+.nav-light-white {
+    background-color: #aaa;
+}
+
+.dark-nav h2 {
+    color: var(--white);
+}
+
+
+/* .title-mod {
+    color: var(--black);
+} */
+
+#cabecalho .nav .nav-link.active {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background: #fff;
+}
+
+.form-nav label, h3 {
+    color: var(--second-black);
+}
+
+.section-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title span {
+    font-family: 'Roboto', sans-serif;
+    color:  var(--light-white);
+    font-weight: bold;
+}
+
+#sobre-restaurante, #cardapio {
+    background-color: var(--light-bg); 
+}
+
+.text-colored {
+    color: var(--light-white);
+}
+
+.text-colored-2 {
+    color: var(--white);
+}
+
+.nav-cardapio .nav-link.active, #contato button {
+    background-color: var(--green);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #a5f6d1;
+}
+
+.social-link li {
+    display: inline;
+    list-style: none;
+}
+
+.social-link a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+}
